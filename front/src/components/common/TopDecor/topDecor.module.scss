@@ -1,0 +1,23 @@
+.hero_union,
+.contacts_page_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 4000px;
+  height: 1100px;
+  object-fit: cover;
+
+  @media screen and (min-width: 768px) {
+    height: 610px;
+  }
+
+  @media screen and (min-width: 1368px) {
+    height: 750px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    height: 1080px;
+    width: 100%;
+  }
+}
