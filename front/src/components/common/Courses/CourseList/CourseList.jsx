@@ -16,6 +16,7 @@ import s from "./courseList.module.scss";
 
 export default function CourseList() {
   const [courses, setCourses] = useState([]);
+  console.log(courses);
   useEffect(() => {
     const getCourses = async () => {
       const {
@@ -52,7 +53,7 @@ export default function CourseList() {
           }) => (
             <SwiperSlide key={id} className={s.cource_item}>
               <div className={s.course_item_thumb}>
-                <img
+                <Image
                   src={`${endpoints.BASE_URL}${previewImg.data.attributes.url}`}
                   width={200}
                   height={200}
