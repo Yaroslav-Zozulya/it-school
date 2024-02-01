@@ -9,7 +9,7 @@ export default function HowLearning() {
       <Container>
         <div className={s.howLearningWrapper}>
           <Image
-            src="/images/howLearning/how-learning-bg-desk2.png"
+            src="/images/howLearning/img.png"
             width={343}
             height={257}
             alt="Learning process image"
@@ -32,13 +32,11 @@ export default function HowLearning() {
                   >
                     <use href="/icons/sprite.svg#icon-star"></use>
                   </svg>
-                  <h3 className={s.howLearning_item_title}>
-                    Особистий онлайн-кабінет
-                  </h3>
+                  <h3 className={s.howLearning_item_title}>Лекції</h3>
                 </div>
                 <p className={s.howLearning_item_description}>
-                  Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис
-                  Опис Опис Опис Опис Опис Опис Опис Опис
+                  Онлайн, Офлайн або в Записі - кожен обере зручний для себе
+                  формат
                 </p>
               </li>
               <li className={s.howLearning_item}>
@@ -47,12 +45,12 @@ export default function HowLearning() {
                     <use href="/icons/sprite.svg#icon-moon"></use>
                   </svg>
                   <h3 className={s.howLearning_item_title}>
-                    Особистий онлайн-кабінет
+                    Практичні завдання
                   </h3>
                 </div>
                 <p className={s.howLearning_item_description}>
-                  Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис
-                  Опис Опис Опис Опис Опис Опис Опис Опис
+                  Онлайн, Офлайн або в Записі - кожен обере зручний для себе
+                  формат
                 </p>
               </li>
               <li className={s.howLearning_item}>
@@ -61,12 +59,12 @@ export default function HowLearning() {
                     <use href="/icons/sprite.svg#icon-rocket-white"></use>
                   </svg>
                   <h3 className={s.howLearning_item_title}>
-                    Особистий онлайн-кабінет
+                    Домашні завдання{" "}
                   </h3>
                 </div>
                 <p className={s.howLearning_item_description}>
-                  Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис
-                  Опис Опис Опис Опис Опис Опис Опис Опис
+                  Кожна тема має ДЗ, яке перевіряють наші ментори які завжди
+                  готові прийти на допомогу та відповісти на будь які питання
                 </p>
               </li>
             </ul>

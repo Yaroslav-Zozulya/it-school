@@ -1,12 +1,12 @@
 import axios from "axios";
 
-const BASE_URL = "https://telling-country-production.up.railway.app";
+const BASE_URL = "http://localhost:1337";
 
 export const endpoints = {
   callbackCourse: `${BASE_URL}/api/callback-courses`,
   callback: `${BASE_URL}/api/callbacks`,
   getAllCourses: `${BASE_URL}/api/courses?populate=previewImg`,
-  discount: `${BASE_URL}/api/discount-promotion`,
+  BASE_URL: "http://localhost:1337",
 };
 
 async function sendModalCall(endpoint, data) {
