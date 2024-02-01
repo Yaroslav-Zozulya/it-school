@@ -6,9 +6,9 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
-  images: {
-    domains: ["https://roomy-tray-production.up.railway.app/"],
-  },
+  // images: {
+  //   domains: ["https://roomy-tray-production.up.railway.app/"],
+  // },
 };
 
 module.exports = nextConfig;
