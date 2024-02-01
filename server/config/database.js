@@ -7,10 +7,7 @@ module.exports = ({ env }) => {
     mysql: {
       connection: {
         connectionString: env("DATABASE_URL"),
-        host: env(
-          "DATABASE_HOST",
-          "https://roomy-tray-production.up.railway.app/"
-        ),
+        host: env("DATABASE_HOST", "localhost"),
         port: env.int("DATABASE_PORT", 3306),
         database: env("DATABASE_NAME", "strapi"),
         user: env("DATABASE_USERNAME", "strapi"),
@@ -34,10 +31,7 @@ module.exports = ({ env }) => {
     },
     mysql2: {
       connection: {
-        host: env(
-          "DATABASE_HOST",
-          "https://roomy-tray-production.up.railway.app/"
-        ),
+        host: env("DATABASE_HOST", "localhost"),
         port: env.int("DATABASE_PORT", 3306),
         database: env("DATABASE_NAME", "strapi"),
         user: env("DATABASE_USERNAME", "strapi"),
@@ -62,10 +56,7 @@ module.exports = ({ env }) => {
     postgres: {
       connection: {
         connectionString: env("DATABASE_URL"),
-        host: env(
-          "DATABASE_HOST",
-          "https://roomy-tray-production.up.railway.app/"
-        ),
+        host: env("DATABASE_HOST", "localhost"),
         port: env.int("DATABASE_PORT", 5432),
         database: env("DATABASE_NAME", "strapi"),
         user: env("DATABASE_USERNAME", "strapi"),
